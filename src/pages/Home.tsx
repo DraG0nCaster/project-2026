@@ -1,17 +1,34 @@
-import React, { useState } from 'react';
+import React from 'react';
 import NameInput from '../components/NameInput';
 
-const Home: React.FC = () => {
+interface HomeProps {
+}
 
-    const [name, setName] = useState<string>('');
+interface HomeState {
+    name: string;
+}
 
-    return (
-        <div className="container text-center mt-6">
-        <h1>Hello {name ? `${name}` : 'World'}!</h1>
-        <p>What is your name?</p>
-        <NameInput onNameChange={setName} />
-        </div>
-    );
+class Home extends React.Component<HomeProps, HomeState> {
+    
+    state = {
+        name: ''
+    };
+
+    handleNameChange = (name: string) => {
+        this.setState({ name });
+    };
+
+    render() {
+        const { name } = this.state;
+
+        return (
+            <div className="container text-center mt-6">
+            <h1>Hello {name ? `${name}` : 'World'}!</h1>
+            <p>What is your name?</p>
+            <NameInput onNameChange={this.handleNameChange} />
+            </div>
+        );
+    }
 };
 
 export default Home;
