@@ -5,7 +5,7 @@ import Home from './pages/Home';
 class App extends React.Component {
   render() {
     return (
-        <Router basename="/project-2026">
+        <Router basename="/">
           <main style={{ padding: '0 10px' }}>
             <Routes>
               <Route path="/" element={<Home />} />
