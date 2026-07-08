@@ -5,8 +5,13 @@ interface NameInputProps {
 }
 
 const NameInput: React.FC<NameInputProps> = ({ onNameChange }) => {
+
+    function handleNameChange(value: string){
+        onNameChange(value);
+    }
+
     return (
-        <input type="text" placeholder="Enter your name" onChange={(e) => onNameChange(e.target.value)} />
+        <input type="text" placeholder="Enter your name" onChange={(e) => console.log(handleNameChange(e.target.value))} />
     );
 };
 
