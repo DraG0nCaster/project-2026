@@ -30,7 +30,6 @@ jobs:
     - name: Run Playwright tests
       run: |
         npx playwright test
-        npx playwright test -c playwright-ct.config.ts
       
     - name: Upload Pages Artifact
       uses: actions/upload-pages-artifact@v3
