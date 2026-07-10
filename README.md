@@ -59,5 +59,5 @@ npm run test-ct
 Run E2E tests
 
 ```
-npm run test-ct
+npx playwright test
 ```
