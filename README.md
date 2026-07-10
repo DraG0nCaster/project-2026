@@ -44,3 +44,28 @@ src/                # application source code
 └── main.tsx         # Vite/React entry point
 
 ```
+
+# Commands for developers
+
+Linter
+
+```
+npm run lint
+
+```
+
+Run component tests
+
+```
+npm run test-ct
+
+```
+
+Run E2E tests
+
+```
+
+npm run test-ct
+
+
+```
