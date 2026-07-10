@@ -9,6 +9,7 @@ This site is built for learning purposes and for studying React structure.
 
 # Tech Stack
 
+- Node v24.18.0
 - React
 - Vite
 - CSS
