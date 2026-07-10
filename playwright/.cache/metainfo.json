@@ -1,0 +1,64 @@
+{
+  "version": "1.61.1",
+  "viteVersion": "6.4.3",
+  "registerSourceHash": "ea233d95b980072c81eb49458aee55f5d33fdb02",
+  "components": [
+    {
+      "id": "C__projects_Summer_2026_hello_world_src_components_NameInput",
+      "filename": "C:\\projects\\Summer 2026\\hello-world\\src\\components\\NameInput.spec.tsx",
+      "importSource": "./NameInput"
+    },
+    {
+      "id": "C__projects_Summer_2026_hello_world_src_components_NameInput_NameInput",
+      "filename": "C:\\projects\\Summer 2026\\hello-world\\src\\components\\NameInput.spec.tsx",
+      "importSource": "./NameInput",
+      "remoteName": "NameInput"
+    }
+  ],
+  "sources": {
+    "C:/projects/Summer 2026/hello-world/playwright/index.html": {
+      "timestamp": 1783513711840.1526
+    },
+    "C:/projects/Summer 2026/hello-world/playwright/index.tsx": {
+      "timestamp": 1783513711842.156
+    },
+    "C:/projects/Summer 2026/hello-world/node_modules/react/index.js": {
+      "timestamp": 1783008301757.386
+    },
+    "C:/projects/Summer 2026/hello-world/node_modules/react-dom/client.js": {
+      "timestamp": 1783008301657.378
+    },
+    "C:/projects/Summer 2026/hello-world/src/components/NameInput.tsx": {
+      "timestamp": 1783514488533.223
+    },
+    "C:/projects/Summer 2026/hello-world/node_modules/react/jsx-runtime.js": {
+      "timestamp": 1783008301990.4043
+    },
+    "C:/projects/Summer 2026/hello-world/node_modules/react/cjs/react.production.js": {
+      "timestamp": 1783008303172.6238
+    },
+    "C:/projects/Summer 2026/hello-world/node_modules/react-dom/cjs/react-dom-client.production.js": {
+      "timestamp": 1783008303221.6262
+    },
+    "C:/projects/Summer 2026/hello-world/node_modules/react/cjs/react-jsx-runtime.production.js": {
+      "timestamp": 1783008302980.6086
+    },
+    "C:/projects/Summer 2026/hello-world/node_modules/react-dom/index.js": {
+      "timestamp": 1783008301851.393
+    },
+    "C:/projects/Summer 2026/hello-world/node_modules/scheduler/index.js": {
+      "timestamp": 1783008300938.3271
+    },
+    "C:/projects/Summer 2026/hello-world/node_modules/react-dom/cjs/react-dom.production.js": {
+      "timestamp": 1783008304353.7117
+    },
+    "C:/projects/Summer 2026/hello-world/node_modules/scheduler/cjs/scheduler.production.js": {
+      "timestamp": 1783008302084.4104
+    }
+  },
+  "deps": {
+    "C:\\projects\\Summer 2026\\hello-world\\src\\components\\NameInput.tsx": [
+      "C:\\projects\\Summer 2026\\hello-world\\src\\components\\NameInput.tsx"
+    ]
+  }
+}
