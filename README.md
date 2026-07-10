@@ -18,7 +18,7 @@ This site is built for learning purposes and for studying React structure.
 
 ## Installation & Setup
 
-```js
+```
 
 git clone https://github.com/DraG0nCaster/project-2026.git
 
@@ -27,5 +27,19 @@ cd project-2026
 npm install
 
 npm run dev
+
+```
+# Project Structure
+
+```
+
+src/                # application source code
+├── assets/          
+├── components/      
+│   └── NameInput.tsx # component for entering the user name
+├── pages/           
+│   └── Home.tsx     # main page of the app
+├── App.tsx          # root application component
+└── main.tsx         # Vite/React entry point
 
 ```
