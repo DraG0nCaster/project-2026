@@ -60,5 +60,4 @@ Run E2E tests
 
 ```
 npm run test-ct
-
 ```
